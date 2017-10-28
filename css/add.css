@@ -1,0 +1,25 @@
+
+
+form * {
+    /*display: block;*/
+    width: 80%;
+    margin: 20px;
+    padding: 5px;
+}
+
+form textarea {
+    height: 300px;
+}
+
+form button {
+    width: 30%;
+}
+
+form #reset {
+    width: 30%;
+}
+
+form {
+    /*margin-left: 300px;*/
+    text-align: center;
+}

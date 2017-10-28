@@ -1,0 +1,43 @@
+
+section li {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    width: 12%;
+    height: 200px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    color: white;
+}
+
+section li a {
+    color: white;
+    display: block;
+}
+
+section li:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+section li p {
+    margin-top: 10px;
+    word-break: break-all;
+}
+
+section li span {
+    font-size: 80%;
+}
+
+section h3 {
+    font-size: 140%;
+}
+@media screen and (max-width: 600px) {
+    section li {
+        float: none;
+        width: auto;
+        height: auto;
+    }
+}

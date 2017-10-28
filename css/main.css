@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+nav #left * {
+    float: left;
+}
+
+nav a {
+    padding: 15px;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav audio {
+    margin-top: 8px;
+    width: 65px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.logo a {
+    padding: 0;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+nav #right * {
+    float: right;
+}
+
+header {
+    background-image: url("../img/mike-kotsch-204198.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    /*not suitable in ie*/
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 0 55%;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+}
+
+header h1 {
+    font-size: 250%;
+}
+
+header h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+
+header button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+section {
+    /*padding: 50px;*/
+    /*text-align: center;*/
+    margin: auto;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+#menu {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    section {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+footer {
+    background-image: url("../img/mike-kotsch-204198.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    /*not suitable in ie*/
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 0 85%;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}

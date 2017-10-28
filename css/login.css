@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+header {
+    background: none;
+}
+
+body {
+    background-image: url('../img/mike-kotsch-204198.jpg');
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    /*position: absolute;*/
+}
+
+section {
+    background: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: -150px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+section form label {
+    text-align: right;
+    color: white;
+    /*width: 30%;*/
+}
+
+section form input {
+    width: 30%;
+}
+
+section form button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+section form {
+    text-align: center;
+}
+
+section form * {
+    font-size: 120%;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section {
+        margin-left: 10px;
+        margin-right: 10px;
+        /*padding: 10px;*/
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section form input {
+        width: 55%;
+    }
+}
+
+#whole {
+    height: 100%;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.8);
+    background: none;
+    text-align: left;
+    padding: 10px;
+    margin-top: -40px;
+}

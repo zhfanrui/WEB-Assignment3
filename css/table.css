@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table * {
+    padding: 10px;
+}
+
+.tdbutton:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.normal {
+    color: #6b7d86;
+}
+
+.delete {
+    color: red;
+}
+
+table button {
+    width: 80px;
+}

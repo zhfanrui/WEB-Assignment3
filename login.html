@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Static Content Management System</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <link href="css/mobile.css" type="text/css" rel="stylesheet" media="screen and (max-width: 600px)"/>
+
+    <link href="css/login.css" type="text/css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="Menu()">
+    <div id="whole">
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" /></a>
+        </div>
+        <ul id="left">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="content.html">ITEMS</a>
+            </li>
+            <li>
+                <a href="table.html">MANAGE</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+        </ul>
+
+        <ul id="right">
+            <li>
+                <a href="login.html">Log in</a>
+            </li>
+            <li>
+                <a href="#">Log out</a>
+            </li>
+
+        </ul>
+        <canvas id="menu" width="30px" height="30px"></canvas>
+        <!-- <div class="clear"></div> -->
+    </nav>
+    <header>
+        <h1>Log In</h1>
+    </header>
+
+    <section>
+        <form>
+            <label>
+                Username:
+            </label><input type="text" name="username" /><br />
+            <label>
+                Password:
+            </label><input type="password" name="password" /><br />
+            <button onclick="return false">Log In</button>
+        </form>
+    </section>
+
+
+</div>
+    <footer>
+        CopyRight &copy; 2017 - Fan, Rui - 15398280
+    </footer>
+</body>
+</html>
