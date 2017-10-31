@@ -5,17 +5,19 @@
     <meta charset="utf-8" />
     <meta name="description" content="Static Content Management System" />
     <meta name="keywords" content="SCMS, FR, Fan Rui, Stephen Fan, Static Content Management System, CMS, Content Management System" />
-    <meta name="author" content="Stephen Fan 15398280" />    <title>SCMS - Add</title>
+    <meta name="author" content="Stephen Fan 15398280" />    <title>SCMS - Items</title>
     <link href="css/main.css" type="text/css" rel="stylesheet"/>
     <link href="css/mobile.css" type="text/css" rel="stylesheet" media="screen and (max-width: 600px)"/>
 
-    <link href="css/add.css" type="text/css" rel="stylesheet" />
+    <link href="css/list.css" type="text/css" rel="stylesheet"/>
 
     <script src="js/main.js"></script>
     <script src="js/table.js"></script>
+    <script>
+    </script>
 </head>
 
-<body onload="addInit()">
+<body onload="displayList()">
     <nav>
         <div class="logo">
             <a href="index.html"><img src="img/logo.png" /></a>
@@ -48,24 +50,16 @@
         <!-- <div class="clear"></div> -->
     </nav>
     <header>
-        <h1>Static Content Management System</h1>
-        <h2>SCMS</h2>
-        <!-- <button id="add" class="button">Add</button> -->
-        <!-- <button id="join" class="button">Join In</button> -->
+        <h1>ITEMS</h1>
+        <h2>Static Content Management System</h2>
+        <button id="add" class="button">Add</button>
+        <button id="join" class="button">Join In</button>
     </header>
 
 
     <section>
-        <form action="" method="post">
-            <input type="text" name="title" placeholder="Title" />
-            <input type="text" name="name" placeholder="Author" />
-            <input type="email" name="email" placeholder="Email" />
-            <input type="number" name="n1" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
-            <input type="number" name="n2" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
-            <textarea name="des" placeholder="Article"></textarea>
-            <input type="submit" id="add" name="Add" value="Add" />
-            <input type="reset" id="reset" />
-        </form>
+
+
     </section>
 
     <footer>

@@ -5,8 +5,8 @@ section li {
     float: left;
     padding: 30px;
     margin: 30px;
-    width: 12%;
-    height: 200px;
+    width: 15%;
+    height: 170px;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
