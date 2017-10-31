@@ -13,6 +13,7 @@ function removeAll() {
 }
 
 function displayTable() {
+    main()
     var str = '<table border=1 ><tr><th>Time</th><th>Title</th><th>Author</th><th>Email</th><th colspan=2>Operation</th></tr>'
     for (var i in localStorage) {
         var temp = localStorage[i].split(',')
@@ -26,6 +27,7 @@ function displayTable() {
 }
 
 function displayList() {
+    main()
     var str = '<ul>'
     for (var i in localStorage) {
         var temp = localStorage[i].split(',')

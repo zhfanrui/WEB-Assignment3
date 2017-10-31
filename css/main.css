@@ -116,13 +116,23 @@ section {
 }
 
 footer {
-    background-image: url("../img/mike-kotsch-204198.jpg");
-    background-color: rgba(0, 0, 0, 0.2);
+    /*background-image: url("../img/mike-kotsch-204198.jpg");*/
+    /*background-color: rgba(0, 0, 0, 0.2);*/
     /*not suitable in ie*/
-    background-blend-mode: darken;
-    background-size: cover;
-    background-position: 0 85%;
-    color: white;
-    padding: 50px;
+    /*background-blend-mode: darken;*/
+    /*background-size: cover;*/
+    /*background-position: 0 85%;*/
+    background-color: #607d8b;
+    color: rgba(250, 250, 250, 0.8);
+    padding: 30px;
     text-align: center;
+}
+
+footer a {
+    color: rgba(250, 250, 250, 0.7);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgba(250, 250, 250, 0.8);
 }
