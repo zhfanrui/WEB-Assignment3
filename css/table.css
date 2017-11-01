@@ -7,19 +7,50 @@ table * {
     padding: 10px;
 }
 
+table tr:first-child {
+    background-color: #607d8b;
+    color: white;
+}
+
+colgroup {
+    background-color: rgba(96, 125, 139, 0.3);
+}
+
 .tdbutton:hover {
-    color: blue;
+    background-color: rgba(96, 125, 139, 0.8);
+    color: white;
     cursor: pointer;
 }
 
 .normal {
-    color: #6b7d86;
+    color: #607d8b;
+    background-color: white;
 }
 
 .delete {
     color: red;
 }
 
-table button {
-    width: 80px;
+.delete:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+section {
+    text-align: center;
+}
+
+section button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgba(255, 0, 0, 1);
 }

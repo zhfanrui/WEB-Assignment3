@@ -1,0 +1,14 @@
+pre {
+    overflow: auto;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+}
+
+header span {
+    display: block;
+    font-size: 80%;
+    color: rgba(255, 255, 255, 0.8);
+}

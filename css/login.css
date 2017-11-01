@@ -1,6 +1,7 @@
 html {
     height: 100%;
 }
+
 header {
     background: none;
 }
@@ -62,27 +63,6 @@ section form * {
     margin: 10px;
 }
 
-@media screen and (max-width: 1400px){
-    section {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    section {
-        margin-left: 10px;
-        margin-right: 10px;
-        /*padding: 10px;*/
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    section form input {
-        width: 55%;
-    }
-}
-
 #whole {
     height: 100%;
 }
@@ -93,4 +73,28 @@ footer {
     text-align: left;
     padding: 10px;
     margin-top: -40px;
+}
+
+@media screen and (max-width: 1400px) {
+    section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /*padding: 10px;*/
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section form input {
+        width: 55%;
+    }
+    footer {
+        margin-top: -100px;
+    }
 }

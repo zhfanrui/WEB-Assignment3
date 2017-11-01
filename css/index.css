@@ -32,23 +32,24 @@
     font-size: 130%;
 }
 
+.wall a {
+    text-decoration: underline;
+    color: #607d8b;
+}
 
 @media screen and (max-width: 600px) {
     .wall {
         text-align: center;
         padding: 10px;
     }
-
     .wall .left {
         float: none;
         margin-right: 0;
         width: 100%;
     }
-
     .wall img {
         width: 80%;
     }
-
     .wall .right {
         float: none;
         width: 100%;

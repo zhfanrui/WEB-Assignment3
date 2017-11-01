@@ -1,30 +1,36 @@
-
 $ = function(s) {
-    if(s.startsWith("#")){
+    if (s.startsWith("#")) {
         return document.getElementById(s.slice(1))
-    }
-    else if (s.startsWith(".")) {
+    } else if (s.startsWith(".")) {
         return document.getElementsByClassName(s.slice(1))
-    }
-    else if (s.startsWith(",")){
+    } else if (s.startsWith(",")) {
         return document.getElementsByName(s.slice(1))
-    }
-    else {
+    } else {
         return document.getElementsByTagName(s)
+    }
+}
+
+function backTest() {
+    main()
+    for (variable of $("section")[0].children) {
+        console.log(variable);
+        var t = variable.getElementsByTagName("img")[0].src
+        variable.style.backgroundImage = t
+        console.log(variable.style.backgroundImage);
     }
 }
 
 function main() {
     $("#add").onclick = function() {
-        window.location.href='add.html'
+        window.location.href = 'add.html'
     }
     $("#join").onclick = function() {
-        window.location.href='reg.html'
+        window.location.href = 'login.html'
     }
     Menu()
 }
 
-function Menu(){
+function Menu() {
     var e1 = $('#left')
     var e2 = $('#right')
     // e1.style.height = "0px"
@@ -70,11 +76,10 @@ function Menu(){
         //     e1.style.padding = "0px"
         // }
 
-        if(e1.style.display == "none" || e1.style.display == ""){
+        if (e1.style.display == "none" || e1.style.display == "") {
             e1.style.display = "block"
             e2.style.display = "block"
-        }
-        else {
+        } else {
             e1.style.display = "none"
             e2.style.display = "none"
         }
@@ -85,11 +90,11 @@ function Menu(){
 
 function drawMenu() {
     var canvas = $("#menu")
-    var ctx=canvas.getContext('2d');
-    ctx.fillStyle='rgba(255,255,255,0.5)';
-    ctx.fillRect(0,0,50,6);
-    ctx.fillRect(0,10,50,6);
-    ctx.fillRect(0,20,50,6);
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    ctx.fillRect(0, 0, 50, 6);
+    ctx.fillRect(0, 10, 50, 6);
+    ctx.fillRect(0, 20, 50, 6);
 }
 
 function sleep(t) {

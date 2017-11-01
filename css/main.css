@@ -65,6 +65,7 @@ header {
     padding-top: 200px;
     padding-bottom: 200px;
     color: white;
+    transition: all 1s;
 }
 
 header h1 {
