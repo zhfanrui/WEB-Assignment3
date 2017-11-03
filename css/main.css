@@ -16,6 +16,10 @@ a {
     clear: both;
 }
 
+.center {
+    text-align: center;
+}
+
 nav #left * {
     float: left;
 }
