@@ -1,0 +1,10 @@
+article p {
+    margin: 10px;
+}
+
+article img {
+    float: right;
+    width: 200px;
+    background-color: rgba(96, 125, 139, 0.3);
+    border-radius: 25px;
+}
