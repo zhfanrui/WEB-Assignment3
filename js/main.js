@@ -23,9 +23,11 @@ function backTest() {
 function main() {
     $("#add").onclick = function() {
         window.location.href = 'add.html'
+        return false
     }
     $("#join").onclick = function() {
         window.location.href = 'login.html'
+        return false
     }
     Menu()
 }
