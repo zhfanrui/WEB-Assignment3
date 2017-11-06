@@ -1,4 +1,4 @@
-section li {
+main li {
     border-radius: 5px;
     box-shadow: 0px 0px 5px gray;
     float: left;
@@ -12,30 +12,30 @@ section li {
     color: white;
 }
 
-section li a {
+main li a {
     color: white;
     display: block;
 }
 
-section li:hover {
+main li:hover {
     box-shadow: 0px 0px 20px black;
 }
 
-section li p {
+main li p {
     margin-top: 10px;
     word-break: break-all;
 }
 
-section li span {
+main li span {
     font-size: 80%;
 }
 
-section h3 {
+main h3 {
     font-size: 140%;
 }
 
 @media screen and (max-width: 600px) {
-    section li {
+    main li {
         float: none;
         width: auto;
         height: auto;

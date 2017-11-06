@@ -19,7 +19,7 @@ function removeAll() {
 function displayTable() {
     main()
     if (localStorage.length == 0) {
-        $('section')[0].innerHTML = "Empty! Come and add some."
+        $('main')[0].innerHTML = "Empty! Come and add some."
         return
     }
     var str = '<table border=1 ><colgroup></colgroup><tr><th>Time</th><th>Title</th><th>Author</th><th>Email</th><th colspan=2>Operation</th></tr>'
@@ -29,7 +29,7 @@ function displayTable() {
     }
     str += '</table>'
     str += '<button onclick="removeAll()">Clear All</button>'
-    $('section')[0].innerHTML = str
+    $('main')[0].innerHTML = str
 
     Menu()
 }
@@ -37,7 +37,7 @@ function displayTable() {
 function displayList() {
     main()
     if (localStorage.length == 0) {
-        $('section')[0].innerHTML = "Empty! Come and add some."
+        $('main')[0].innerHTML = "Empty! Come and add some."
         return
     }
     var str = '<ul>'
@@ -46,7 +46,7 @@ function displayList() {
         str = '<li class="list"><a href="content.html?' + i + '"><h3>' + temp[0] + '</h3><span>' + getTime(i) + '</span><p>' + temp[3].slice(0, 20) + '...</p></a></li>' + str
     }
     str += '</ul><div class="clear"></div>'
-    $('section')[0].innerHTML = str
+    $('main')[0].innerHTML = str
 
     ul = $('.list')
     for (var i in ul) {
@@ -118,7 +118,7 @@ function showContent() {
 
     var pre = document.createElement("pre")
     pre.innerHTML = l[3]
-    $("section")[0].appendChild(pre)
+    $("main")[0].appendChild(pre)
 }
 
 function editContent(r) {

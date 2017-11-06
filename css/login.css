@@ -16,7 +16,7 @@ body {
     /*position: absolute;*/
 }
 
-section {
+main {
     background: none;
     background-color: rgba(255, 255, 255, 0.3);
     margin-top: -150px;
@@ -26,17 +26,17 @@ section {
     border-radius: 20px;
 }
 
-section form label {
+main form label {
     text-align: right;
     color: white;
     /*width: 30%;*/
 }
 
-section form input {
+main form input {
     width: 30%;
 }
 
-section form button {
+main form button {
     width: 100px;
     padding: 10px;
     margin: 10px;
@@ -48,15 +48,15 @@ section form button {
     cursor: pointer;
 }
 
-section form button:hover {
+main form button:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-section form {
+main form {
     text-align: center;
 }
 
-section form * {
+main form * {
     font-size: 120%;
     display: inline-block;
     padding: 5px;
@@ -76,14 +76,14 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-    section {
+    main {
         margin-left: 100px;
         margin-right: 100px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    section {
+    main {
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 10px;
@@ -91,7 +91,7 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
     }
-    section form input {
+    main form input {
         width: 55%;
     }
     footer {
