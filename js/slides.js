@@ -4,4 +4,4 @@ function slides(i) {
     setTimeout("slides(" + next + ")", 5000);
 }
 
-setTimeout("slides(1)", 2000);
+setTimeout("slides(1)", 5000);
