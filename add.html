@@ -64,14 +64,14 @@
 
     <main id="main" tabindex="-1">
         <form action="#" method="post">
-            <input type="text" name="title" placeholder="Title" required/>
-            <input type="text" name="name" placeholder="Author" required/>
-            <input type="email" name="email" placeholder="Email" required/>
-            <input type="number" name="n1" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
-            <input type="number" name="n2" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
-            <textarea name="des" placeholder="Article" required></textarea>
+            <input type="text" name="title" id="title" placeholder="Title" maxlength="30" required/>
+            <input type="text" name="name" id="name" placeholder="Author" maxlength="30" required/>
+            <input type="email" name="email" id="email" placeholder="Email" maxlength="30" required/>
+            <input type="number" name="n1" id="n1" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
+            <input type="number" name="n2" id="n2" placeholder="Please enter 2 numbers and this would be the key to edit acticle." />
+            <textarea name="des" id="des" placeholder="Article" maxlength="2147483647" required></textarea>
             <input type="submit" id="add" name="Add" value="Add" />
-            <input type="reset" id="reset" />
+            <input type="reset" id="reset" value="Reset" />
         </form>
     </main>
 
