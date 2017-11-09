@@ -1,12 +1,22 @@
 form * {
     /*display: block;*/
-    width: 80%;
     margin: 10px;
     padding: 5px;
 }
 
+form input {
+    width: 60%;
+}
+
+form label {
+    display: inline-block;
+    width: 17%;
+    text-align: right;
+}
+
 form textarea {
-    height: 300px;
+    height: 100px;
+    width: 60%;
 }
 
 form button {
@@ -20,4 +30,18 @@ form #reset, #add {
 form {
     /*margin-left: 300px;*/
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    form label {
+        display: none;
+    }
+
+    form input {
+        width: 70%;
+    }
+
+    form textarea {
+        width: 70%;
+    }
 }
