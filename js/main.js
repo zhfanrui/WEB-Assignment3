@@ -1,4 +1,10 @@
 $ = function(s) {
+    // suit for ie
+    if (typeof String.prototype.startsWith != 'function') {
+        String.prototype.startsWith = function(prefix) {
+            return this.slice(0, prefix.length) === prefix;
+        };
+    }
     if (s.startsWith("#")) {
         return document.getElementById(s.slice(1))
     } else if (s.startsWith(".")) {
