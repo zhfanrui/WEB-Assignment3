@@ -58,12 +58,12 @@
 
         <main id="main" tabindex="-1">
             <form action="index.html" method="post">
-                <label>
+                <label for="text">
                 Username:
-            </label><input type="text" name="username" /><br />
-                <label>
+            </label><input type="text" id="text" name="username" maxlength="30" /><br />
+                <label for="password">
                 Password:
-            </label><input type="password" name="password" /><br />
+            </label><input type="password" id="password" name="password" maxlength="30" /><br />
                 <button>Log In</button>
             </form>
         </main>

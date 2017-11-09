@@ -20,6 +20,10 @@ a {
     text-align: center;
 }
 
+.none {
+    display: none;
+}
+
 nav #left * {
     float: left;
 }
