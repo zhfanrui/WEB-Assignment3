@@ -10,16 +10,6 @@ $ = function(s) {
     }
 }
 
-function backTest() {
-    main()
-    for (variable of $("main")[0].children) {
-        console.log(variable);
-        var t = variable.getElementsByTagName("img")[0].src
-        variable.style.backgroundImage = t
-        console.log(variable.style.backgroundImage);
-    }
-}
-
 function main() {
     $("#add").onclick = function() {
         window.location.href = 'add.html'

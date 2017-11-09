@@ -3,7 +3,7 @@ function ladd(key, val) {
     for (variable of val) {
         v = v + variable + "<boundary>"
     }
-    localStorage[key] = v
+    localStorage.setItem(key, v)
 }
 
 function lremove(key) {
